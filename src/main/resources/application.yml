@@ -13,6 +13,13 @@ spring:
           content:
             enabled: true
             paths: /**
+
+proxy:
+  # 代理ip
+  host: 127.0.0.1
+  # 本地代理端口
+  port: 10809
+
 openai:
   # 默认的Token长度
   max_tokens: ${MAX_TOKENS:512}
