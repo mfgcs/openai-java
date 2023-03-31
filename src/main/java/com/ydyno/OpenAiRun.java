@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @SpringBootApplication
+@EnableConfigurationProperties(ProxyConfig.class)
 public class OpenAiRun {
 
     public static void main(String[] args) {
